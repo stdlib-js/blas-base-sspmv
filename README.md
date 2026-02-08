@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+sspmv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-sspmv/tags). For example,
+
+```javascript
 sspmv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var sspmv = require( 'path/to/vendor/umd/blas-base-sspmv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -188,7 +193,7 @@ sspmv.ndarray( 'column-major', 'lower', 3, 1.0, AP, x, 1, 0, 1.0, y, -1, 2 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
