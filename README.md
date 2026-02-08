@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@esm/index.mjs';
+import sspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@v0.1.1-esm/index.mjs';
 ```
 
 #### sspmv( order, uplo, N, α, AP, x, sx, β, y, sy )
@@ -166,7 +166,7 @@ sspmv.ndarray( 'column-major', 'lower', 3, 1.0, AP, x, 1, 0, 1.0, y, -1, 2 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@esm/index.mjs';
+import sspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sspmv@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
