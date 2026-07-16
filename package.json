@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-error": "^0.2.3",
     "@stdlib/blas-base-assert-is-layout": "^0.0.3",
-    "@stdlib/blas-base-assert-is-matrix-triangle": "^0.0.3",
+    "@stdlib/blas-base-matrix-triangle-resolve-str": "^0.0.2",
     "@stdlib/blas-base-sscal": "^0.3.1",
     "@stdlib/blas-ext-base-sfill": "^0.3.1",
     "@stdlib/ndarray-base-assert-is-column-major-string": "^0.1.1",
