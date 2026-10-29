@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-26)
+## Unreleased (2026-10-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1472328`](https://github.com/stdlib-js/stdlib/commit/14723281a11feb1b6fc60a1ef7fdd3caeca9590e) - **test:** migrate `blas/base/sspmv` to ULP-based assertions [(#16166)](https://github.com/stdlib-js/stdlib/pull/16166) _(by Athan Reines)_
 -   [`d5f4dce`](https://github.com/stdlib-js/stdlib/commit/d5f4dcee568b07b7b59917af3ca9c45d2911301e) - **refactor:** add support for enums in `blas/base/sspmv` [(#13503)](https://github.com/stdlib-js/stdlib/pull/13503) _(by Kaustubh Patange)_
 -   [`9a0fc0a`](https://github.com/stdlib-js/stdlib/commit/9a0fc0a169aba8d7986307a49dcdb5ee6b0eeb15) - **bench:** refactor to use string interpolation in `blas/base/sspmv` [(#10455)](https://github.com/stdlib-js/stdlib/pull/10455) _(by Lokesh Ranjan)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Kaustubh Patange
 -   Lokesh Ranjan
 
